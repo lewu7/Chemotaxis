@@ -10,7 +10,7 @@ void setup(){
 }
 
 void draw(){
-  translate(width/2-you.myX, height/2-you.myY);
+  //translate(width/2-you.myX, height/2-you.myY);
   frameRate(200);
   background(255,255,255);
   for(int i = 0; i < one.length; i++){
