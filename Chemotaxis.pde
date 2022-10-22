@@ -2,7 +2,7 @@ Dots[] one;
 Walker you;
 
 void setup(){
-  size(1000,1000);
+  size(800,800);
   you = new Walker();
   one = new Dots[150]; 
   for(int i = 0; i < one.length; i++)
