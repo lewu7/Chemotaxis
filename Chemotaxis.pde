@@ -2,7 +2,7 @@ Dots[] one;
 Walker you;
 
 void setup(){
-  size(800,800);
+  size(1000,1000);
   you = new Walker();
   one = new Dots[150]; 
   for(int i = 0; i < one.length; i++)
@@ -26,8 +26,8 @@ class Dots{
   
   Dots(){ //constructor to initialize random positions
     mySize = (int)(Math.random()*60+10);
-    x = (int)(Math.random()*900);
-    y = (int)(Math.random()*900);
+    x = (int)(Math.random()*1000);
+    y = (int)(Math.random()*1000);
     myColor = color((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255));
   }
   
